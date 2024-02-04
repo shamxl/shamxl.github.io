@@ -3,6 +3,8 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { TextPlugin } from "gsap/TextPlugin"
 import gsap from "gsap"
 
+
+
 const width = window.innerWidth
 const height = window.innerHeight
 
@@ -54,7 +56,9 @@ gsap.to(textElement, {
 	duration: 3,
 	text: text
 })
-
+const watermark = document.querySelector("#watermark")
+const tl = gsap.timeline({repeat: -1})
+tl.to(watermark, 3, {alpha: 0}).to(watermark, 1, {alpha: 0.9})
 
 document.querySelector("#github").addEventListener("click", () => {
 	document.location.href = "https://github.com/shamxl"
