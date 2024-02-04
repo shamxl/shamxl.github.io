@@ -51,13 +51,12 @@ const text = "Passionate full-stack developer with a knack for turning innovativ
 gsap.registerPlugin(TextPlugin)
 
 gsap.to(textElement, {
-	duration: 10,
-	text: text,
-	padSpace: true
+	duration: 3,
+	text: text
 })
 
 
-document.getElementById("github").addEventListener("click", () => {
+document.querySelector("#github").addEventListener("click", () => {
 	document.location.href = "https://github.com/shamxl"
 })
 
