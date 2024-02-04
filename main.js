@@ -56,4 +56,10 @@ gsap.to(textElement, {
 	padSpace: true
 })
 
+
+document.getElementById("github").addEventListener("click", () => {
+	document.location.href = "https://github.com/shamxl"
+})
+
+
 loopRender()
