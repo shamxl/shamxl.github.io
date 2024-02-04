@@ -36,7 +36,7 @@ jobs:
       - name: install vite
         run: npm install --save-dev vite
       - name: install threejs
-        run: npm i --save threejs
+        run: npm i --save three
       - name: install gsap
         run: npm i --save gsap
       - name: build 
