@@ -33,13 +33,15 @@ renderer.setSize(width, height)
 canvas.append(renderer.domElement)
 
 
-
-const controls = new OrbitControls(camera, canvas)
+const eventListener = document.querySelector("section")
+const controls = new OrbitControls(camera, eventListener)
 controls.enablePan = false
 controls.enableZoom = false
 controls.enableDamping = true
+console.log(controls)
 controls.autoRotate = true
 controls.autoRotateSpeed = 5
+
 function loopRender () {
 	requestAnimationFrame(loopRender)
 
@@ -58,11 +60,10 @@ gsap.to(textElement, {
 })
 const watermark = document.querySelector("#watermark")
 const tl = gsap.timeline({repeat: -1})
-tl.to(watermark, 3, {alpha: 0}).to(watermark, 1, {alpha: 0.9})
-
-document.querySelector("#github").addEventListener("click", () => {
-	document.location.href = "https://github.com/shamxl"
+tl.to(watermark, {
+	opacity: 0.5
+}).to(watermark, 1, {
+	opacity: 0.6
 })
-
 
 loopRender()
