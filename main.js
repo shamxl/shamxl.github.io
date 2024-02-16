@@ -38,7 +38,6 @@ const controls = new OrbitControls(camera, eventListener)
 controls.enablePan = false
 controls.enableZoom = false
 controls.enableDamping = true
-console.log(controls)
 controls.autoRotate = true
 controls.autoRotateSpeed = 5
 
