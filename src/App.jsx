@@ -26,7 +26,6 @@ function App() {
       <Image src={banner} alt="banner"/>
       <h2 className="gradient" >Welcome Aboard!</h2>
       <Paragraph>Hello, I'm Shamil. I am a full-stack developer and systems programmer with extensive experience in building and maintaining complex software systems. My expertise spans front-end and back-end development, ensuring seamless integration and performance across various platforms. I am passionate about creating efficient, scalable solutions and continually updating my skills to stay at the forefront of technology.</Paragraph>
-      <Button>Github</Button>
 
     </section>
     <section>
