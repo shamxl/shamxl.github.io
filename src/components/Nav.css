@@ -1,0 +1,27 @@
+.s-nav-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.s-nav {
+  padding: 20px 0 0 20px;
+  height: 40px;
+  backdrop-filter: blur(15px);
+  border-bottom: solid 1px var(--border);
+}
+
+.s-nav > a {
+  text-decoration: none;
+}
+
+.s-nav-main {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.s-nav-left {
+  float: right;
+  padding: 5px 15px;
+}

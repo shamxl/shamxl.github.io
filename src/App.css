@@ -1,0 +1,22 @@
+.gradient {
+  color: transparent;
+  background: linear-gradient(to right, #FBC2EB, #A6C1EE);
+  -webkit-background-clip: text;
+}
+
+section {
+  min-height: 80vh;
+
+}
+
+.bottom {
+  position: absolute;
+  bottom: 4;
+  right: 0;
+  left: 0;
+
+}
+
+.bottom > p {
+  text-align: center;
+}
