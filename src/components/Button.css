@@ -1,0 +1,13 @@
+.s-button {
+  background-color: var(--button);
+  border: none;
+  width: 150px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  transition: all 200ms ease;
+}
+
+.s-button:hover {
+  background-color: black;
+}

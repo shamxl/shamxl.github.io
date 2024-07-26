@@ -1,0 +1,13 @@
+{
+  "repositories": [
+    {
+      "name": "qserve",
+      "description": "Quickly serve your files on your network with speed and simplicity"
+    },
+
+    {
+      "name": "imgr",
+      "description": "image to ascii converter written in rust"
+    }
+  ]
+}

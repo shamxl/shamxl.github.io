@@ -1,0 +1,9 @@
+.s-image-wrapper {
+}
+
+.s-image {
+  max-width: 100%;
+  width: 90vw;
+  height: 20vh;
+  border-radius: 5px;
+}

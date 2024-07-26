@@ -1,0 +1,25 @@
+.s-contact-card {
+  display: flex;
+}
+
+
+.s-contact-button {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+
+.s-contact-button > button {
+  float: right;
+}
+
+.s-contact-image {
+  display: grid;
+  place-items: center;
+}
+
+.s-contact-image > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}

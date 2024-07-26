@@ -1,0 +1,16 @@
+.s-heading {
+  line-height: 10px;
+}
+
+.s-heading-line {
+  border: solid 3px var(--heading);
+}
+
+.s-heading-line-secondary {
+  border: solid 0.5px var(--border);
+  margin-bottom: 35px;
+}
+
+.s-heading-main {
+  font-size: larger;
+}
